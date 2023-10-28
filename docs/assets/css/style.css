@@ -2,3 +2,22 @@ body {
     margin: 0;
     background-color: #2e2e2e;
 }
+
+.wrapper {
+    width: 100%; 
+    height: 100%; 
+    background: #252525; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+.inner-wrapper {
+    width: 100%;
+    padding-top: 50px;
+    background: #444444;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
