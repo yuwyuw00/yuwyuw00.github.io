@@ -1,23 +1,79 @@
-body {
+/*Google Fonts - Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
     margin: 0;
-    background-color: #2e2e2e;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
-.wrapper {
-    width: 100%; 
-    height: 100%; 
-    background: #252525; 
-    justify-content: center; 
-    align-items: center; 
-    display: inline-flex;
-}
-
-.inner-wrapper {
-    width: 100%;
-    padding-top: 50px;
-    background: #444444;
-    justify-content: center;
+body{
+    height: 100vh;
+    display: flex;
     align-items: center;
-    display: inline-flex;
+    justify-content: center;
+    background-color: #f4f4f4;
 }
-
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 505px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #6D1715;
+    padding: 3px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.profile-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight: 800;
+}
+.text-data .status{
+    font-size: 15px;
+    font-weight: 300;
+}
+.profile-card .media-buttons{
+    display: flex;
+    align-items: center;
+}
+.media-buttons .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6D1715;
+    margin: 5px 12px;
+    background-color: #f4f4f4;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+.media-buttons a:hover{
+    color: #ff2724;
+    
+}
