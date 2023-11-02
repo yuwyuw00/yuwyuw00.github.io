@@ -1,2 +1,2 @@
-# yuwyuw.github.io test
+# yuwyuw.github.io
 Personal website
