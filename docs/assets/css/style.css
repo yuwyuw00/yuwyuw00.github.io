@@ -60,15 +60,36 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #333;
+    
 }
 .text-data .name{
-    font-size: 22px;
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: 850;
+    position: relative;
+    color: #ffffff;;
+    -webkit-text-stroke: 1.8px #6D1715;
+    text-transform: uppercase;
+}
+.text-data .name::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #6D1715;
+    -webkit-text-stroke: 0px #6D1715;
+    overflow: hidden;
+    animation: animatename 4s linear 1;
+}
+@keyframes animatename{
+    0%,10%,100%{ width: 0%;}
+    70%,90%{ width: 100%;}
 }
 .text-data .status{
     font-size: 15px;
     font-weight: 300;
+    color: #333;
 }
 .profile-card .media-buttons{
     display: flex;
