@@ -45,7 +45,7 @@ body{
     object-fit: cover;
     border: 3px solid #fff;
     animation-name: ProfileImgAnimation;
-    animation-duration: 4s;
+    animation-duration: s;
     
    
 }
@@ -90,4 +90,14 @@ body{
 .media-buttons a:hover{
     color: #ff2724;
     
+}
+.box {
+    background: #6d1615;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center; /* Center horizontally */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
