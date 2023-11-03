@@ -45,7 +45,7 @@ body{
     object-fit: cover;
     border: 3px solid #fff;
     animation-name: ProfileImgAnimation;
-    animation-duration: s;
+    animation-duration: 4s;
     
    
 }
